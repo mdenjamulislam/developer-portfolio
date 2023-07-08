@@ -22,6 +22,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     color: #757575;
+    background-color: #ffffff;
 }
 
 .container {
@@ -41,11 +42,28 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #FD6E0A;
+    border: 1px solid #FD6E0A;
     transition: .3s ease;
 }
 
 .btn-primary:hover {
-    color: #181818;
+    color: #FD6E0A;
+    background-color: transparent;
+}
+
+.btn-outline {
+    padding: 16px 36px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .3s ease;
+}
+
+.btn-outline:hover {
+    color: #fff;
+    background-color: #FD6E0A;
 }
 
 a, a:hover {
@@ -68,6 +86,12 @@ ul li {
 }
 
 /*--- Start Header Area ----*/
+
+.header {
+    background-color: #FFF8F3;
+    background: url(/assets/images/developer.png) no-repeat;
+    background-position: left;
+}
 
 .navbar {
     padding: 50px 0;
@@ -108,3 +132,51 @@ ul li {
 .navbar ul li a:hover {
     color: #FD6E0A;
 }
+
+
+/*  Banner */
+
+.banner {
+    background: url(/assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner > .container {
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 584px;
+    margin-right: -160px;
+}
+
+.banner .banner-cont {
+    padding-right: 60px;
+}
+
+.banner .banner-cont h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    line-height: 1.3em;
+    
+}
+
+.banner .banner-cont h1.banner-title {
+    font-size: 85px;
+    font-weight: 900;
+    line-height: 1.3em;
+    color: #181818;
+    padding-bottom: 20px;
+}
+
+.banner .banner-cont p {
+    margin-bottom: 30px;
+}
+
+.banner button {
+    margin-right: 20px;
+}
+
