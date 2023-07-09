@@ -228,6 +228,7 @@ ul li {
 .skill {
     padding: 65px 0;
     text-align: center;
+    overflow: hidden;
 }
 
 .skill h2 {
@@ -272,3 +273,71 @@ ul li {
 .skill-item > p {
     font-size: 16px;
 }
+
+
+/*----------- Start Resume Area -----------*/
+
+.resume {
+    padding: 65px 0;
+    text-align: center;
+}
+
+.resume h2.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+    line-height: 1.3em;
+    padding-bottom: 110px;
+}
+
+.resume-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume .resume-box {
+    padding-right: 70px;
+    text-align: left;
+}
+
+.resume .resume-item {
+    padding-bottom: 60px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-box h3.resume-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.resume .resume-box .resume-item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #474747;
+}
+
+.resume .resume-item span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.resume .resume-item p {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+
+.resume button {
+    margin-top: 50px;
+}
+
+
+/*----------- Start Footer Area ------------*/
