@@ -46,6 +46,10 @@ body {
     transition: .3s ease;
 }
 
+.btn-primary i {
+    margin-right: 10px;
+}
+
 .btn-primary:hover {
     color: #FD6E0A;
     background-color: transparent;
@@ -59,6 +63,10 @@ body {
     font-size: 20px;
     font-weight: 700;
     transition: .3s ease;
+}
+
+.btn-outline i {
+    margin-right: 10px;
 }
 
 .btn-outline:hover {
@@ -341,3 +349,58 @@ ul li {
 
 
 /*----------- Start Footer Area ------------*/
+
+.footer {
+    padding: 130px 0;
+    background-color: #FFF8F3;
+    overflow: hidden;
+    margin-top: 65px;
+}
+
+.footer .footer-widget {
+    width: 50%;
+    float: left;
+}
+
+.footer .footer-widget h3.widget-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    padding-bottom: 30px;
+}
+
+.footer .footer-widget p {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon img {
+    padding-right: 24px;
+}
+
+.footer form.contact-form {}
+
+.footer form.contact-form .field-group {
+    padding-bottom: 20px;
+}
+
+.footer form.contact-form input, 
+.footer form.contact-form textarea {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+} 
+
+.footer .pl-60 {
+    padding-left: 60px;
+}
